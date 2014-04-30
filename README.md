@@ -21,13 +21,23 @@ DayZVJ Advance GPS System is a debug monitor for DayZ Epoch. Activated by right 
 
 1. Find
 	~~~~java
-
+	call compile preprocessFileLineNumbers"\z\addons\dayz_code\init\variables.sqf";
+	progressLoadingScreen 0.1;
+	call compile preprocessFileLineNumbers"\z\addons\dayz_code\init\publicEH.sqf";
+	progressLoadingScreen 0.2;
+	call compile preprocessFileLineNumbers"\z\addons\dayz_code\medical\setup_functions_med.sqf";
+	progressLoadingScreen 0.4;
+	call compile preprocessFileLineNumbers"\z\addons\dayz_code\init\compiles.sqf";
+	progressLoadingScreen 0.5;
+	call compile preprocessFileLineNumbers"server_traders.sqf";
+	progressLoadingScreen 1.0;
 	~~~~
 
 1. And Add:
 
 	~~~~java
-	
+	call compile preprocessFileLineNumbers"custom\rightclick\compiles.sqf";
+	progressLoadingScreen 0.6;
 	~~~~
 
 1. Save the init.sqf
@@ -35,8 +45,17 @@ DayZVJ Advance GPS System is a debug monitor for DayZ Epoch. Activated by right 
 1. Paste the following at the bottom:
 
     ~~~~java
+    #include "custom\rightclick\extra_rc.hpp"
     ~~~~
 	
+1. Now goto custem\debug and open DayZVJDebug
+
+1. In line 3 Add your and/or other Admins UID
+
+  	> Don't forget to add a comma (,) between UIDs "","" But none on the last UID
+    ~~~~java
+    DebugUID = ["111111111",/*Your UID*/"999999999"/*Admin UID];
+    ~~~~
 
 ## Credits:
 * VJ1989
