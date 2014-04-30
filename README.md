@@ -54,7 +54,7 @@ DayZVJ Advance GPS System is a debug monitor for DayZ Epoch. Activated by right 
 
   	> Don't forget to add a comma (,) between UIDs "","" But none on the last UID
     ~~~~java
-    DebugUID = ["111111111",/*Your UID*/"999999999"/*Admin UID];
+    DebugUID = ["111111111",/*Your UID*/"999999999"/*Admin UID*/];
     ~~~~
 
 ## Credits:
