@@ -27,11 +27,6 @@ DayZVJ Advance GPS System is a debug monitor for DayZ Epoch. Activated by right 
 1. And Add:
 
 	~~~~java
-	~~~~
-
-	...with this:
-
-	~~~~java
 	
 	~~~~
 
