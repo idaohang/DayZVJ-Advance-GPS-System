@@ -1,6 +1,6 @@
 if (isNil "DBM") then {DBM = true;} else {DBM = !DBM;};
 if (DBM) then { DBMActive = true; }else{ DBMActive=false; };
-DebugUID = ["237191494"];
+DebugUID = ["999999999"];
 WAITUNTIL {alive player};
 (findDisplay 106) closeDisplay 1;
 titleText ["Advance GPS System Activated","PLAIN DOWN"]; titleFadeOut 4;
