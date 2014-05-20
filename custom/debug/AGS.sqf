@@ -4,7 +4,7 @@ hintSilent parseText format ["
 	<t size='0.95' font='Bitstream' align='left' color='#00A8A8'>[ %1 ]</t><t size='0.95' font='Bitstream' align='right' color='#1917B2'>[FPS: %10]</t><br/><br/>
 	<t size='0.95' font='Bitstream' align='left' color='#B2B2B2'>Players: %8</t><t size='0.95 'font='Bitstream' align='right' color='#B2B2B2'>Within 500m: %15</t><br/>
 	<t size='0.95' font='Bitstream' align='left' color='#B2B2B2'>Zombies: </t><t size='0.95' font='Bitstream' align='right' color='#B2B2B2'>%12</t><br/><br/>
-	<t size='1.15' font='Bitstream' align='center' color='#B2B2B2'>Vehicle: %11</t><br/>
+	<t size='1.15' font='Bitstream' align='center' color='#B2B2B2'>Skin: %11</t><br/>
 	<t size='1.15' font='Bitstream' align='center' color='#8C8C8C'>Survived %7 Days</t><br/><br/>
 	<t size='1.15' font='Bitstream' align='left' color='#B2B2B2'>Zombies Killed: </t><t size='1.15' font='Bitstream' align='right' color='#B2B2B2'>%2</t><br/>
 	<t size='1.15' font='Bitstream' align='left' color='#B2B2B2'>Bandits Killed: </t><t size='1.15' font='Bitstream' align='right' color='#B2B2B2'>%5</t><br/>
